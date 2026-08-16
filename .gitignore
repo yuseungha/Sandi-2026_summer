@@ -1,0 +1,14 @@
+# Local ESP32 deployment configuration. Copy the example; never commit credentials.
+firmware/config/secrets.h
+
+# Python caches and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor and OS state
+.vscode/
+.idea/
+Thumbs.db
+
+# Session raw evidence is intentionally NOT ignored. It is a commit candidate.

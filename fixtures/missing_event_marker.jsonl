@@ -1,0 +1,1 @@
+{"captured_at_utc":"2026-08-15T01:00:00.000Z","logger_monotonic_ns":1000000000,"payload":{"server":"safenest-pi","sensors":{"schema":"safenest.telemetry.v1","device_id":"safenest-esp32-01","seq":1,"uptime_ms":1000,"co2_ppm":650,"valid":{"co2":true},"connected":true,"fresh":true,"status":"live"}}}

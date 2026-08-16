@@ -1,0 +1,64 @@
+{
+  "candidate_lock_content_sha256": "7dd6a4c78731465d258e60d2f5e301df2f7b30dbdcc28addb99a0e72a4ec1a90",
+  "candidate_lock_sha256": "5f7772ff26ca10ca95aa5216b45f3eebd96c2429b98a7ee66963ec4ea73c6fd2",
+  "capture_configuration": {
+    "configured_capture_poll_interval_sec": 1.0,
+    "effective_model_input_cadence": "NOMINAL",
+    "effective_model_input_interval_sec": 60,
+    "native_sensor_cadence_separate": true,
+    "requested_duration_sec": 60.0,
+    "source_endpoint_label": "http://127.0.0.1:8080/health",
+    "source_kind": "PI_HEALTH_HTTP"
+  },
+  "capture_duration_sec": 60.0,
+  "capture_end_timestamp_utc": "2026-08-15T00:01:00.000Z",
+  "capture_mode": "DRY_RUN_FIXTURE",
+  "capture_software": {
+    "language": "Python standard library",
+    "model_inference_performed": false,
+    "preprocessing_performed": false,
+    "script": "scripts/capture_co2_c_c1t_session.py"
+  },
+  "capture_start_timestamp_utc": "2026-08-15T00:00:00.000Z",
+  "counts": {
+    "cached_retransmissions": 1,
+    "deviation_events": 0,
+    "failure_events": 0,
+    "fresh_events": 2,
+    "ground_truth_events": 1,
+    "raw_records": 3
+  },
+  "device_identity": "RECORDED_PER_ROW_OR_UNKNOWN",
+  "feature_order": [
+    "CO2",
+    "CO2_slope"
+  ],
+  "files": {
+    "checksums.sha256": "checksums.sha256",
+    "deviation_events.jsonl": "deviation_events.jsonl",
+    "failure_events.jsonl": "failure_events.jsonl",
+    "ground_truth_events.jsonl": "ground_truth_events.jsonl",
+    "operator_notes.md": "operator_notes.md",
+    "raw_measurements.jsonl": "raw_measurements.jsonl",
+    "session_manifest.json": "session_manifest.json"
+  },
+  "freshness_contract_applied": {
+    "missing_event_recording": true,
+    "same_event_id_is_cached_retransmission": true,
+    "stale_reuse": false,
+    "synthetic_fill": false,
+    "transport_freshness_is_sensor_freshness": false
+  },
+  "location_id": "fixture-room",
+  "manifest_version": "1.0",
+  "measurement_protocol_id": "CO2_C_C1R_REDUCED_MEASUREMENT_PROTOCOL_001",
+  "measurement_protocol_version": "1.0.0",
+  "operator_id": "codex",
+  "operator_notes": "Deterministic C-C1T protocol fixture; not physical sensor validation.",
+  "phase": "C-C1T",
+  "physical_measurement_claim": "NOT_CLAIMED_FOR_DRY_RUN",
+  "scenario_id": "VACANT_STABLE",
+  "session_id": "CO2C1R-20260815-CODEX-S001",
+  "session_status": "FINALIZED",
+  "target_candidate_id": "C_B6_REDUCED_CO2_SLOPE_CANDIDATE_001"
+}
