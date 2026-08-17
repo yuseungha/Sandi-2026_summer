@@ -1,0 +1,30 @@
+회로 배선 정리
+
+1. PIR
+VIN : 5V
+GND
+신호선 : D13
+
+2. CO2 [SCD40]
+VIN : 3.3V
+GND
+SDA : D21
+SCL : D22
+
+3. mmWAVE
+VIN : 5V
+GND
+TX : D16
+RX : D17
+
+4. 열화상
+VCC : 3.3V(권장)
+GND
+SDA : D21
+SCL : D22
+SS : D27
+CLK : D18
+MISO : D19
+MOSI : D23
+READY : D26
+RESET : D25
